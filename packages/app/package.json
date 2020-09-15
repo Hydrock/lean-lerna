@@ -1,0 +1,14 @@
+{
+    "name": "@monorepo/app",
+    "version": "0.0.1",
+    "main": "index.js",
+    "author": "Alex Vechkanov <hydrock74@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@monorepo/first": "^0.0.1",
+        "@monorepo/second": "^0.0.1"
+    },
+    "scripts": {
+        "test": "../../node_modules/.bin/jest --colors"
+    }
+}
