@@ -1,0 +1,19 @@
+{
+  "name": "lean-lerna",
+  "version": "1.0.0",
+  "repository": "git@github.com:Hydrock/lean-lerna.git",
+  "main": "packages/app/index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "test": "lerna run test --stream",
+    "update:version": "lerna version --no-push"
+  }
+}
